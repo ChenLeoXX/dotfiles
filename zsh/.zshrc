@@ -16,6 +16,8 @@ export MYSQL_HOME=/usr/local/mysql
 export PATH=${PATH}:/usr/local/mysql/bin
 export PROTOBUF=/usr/local/protobuf
 export PATH=$PROTOBUF/bin:$PATH
+//git日志美化
+alias pglg="git log --pretty='%C(red)%h%Creset%C(yellow)%d%Creset %s %C(cyan)(%ar)%Creset'"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
